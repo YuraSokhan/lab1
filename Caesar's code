@@ -1,6 +1,6 @@
 alphabet = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
-encrypt = input("")
-key = int(input(""))
+encrypt = input("Введіть текст:")
+key = int(input("Ключ:"))
 encrypt = encrypt.lower()
 encrypted = ""
 for letter in encrypt:
