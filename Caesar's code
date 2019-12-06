@@ -1,7 +1,6 @@
-alphabet = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+alphabet = "ABCDEFGHIJKLMNOPQRSUVWXYZABCDEFGHIJKLMNOPQRSUVWXYZabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzабвгґдеєжзиіїйклмнопрстуфхцчшщьюяАБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ012345678901234567890"
 encrypt = input("Введіть текст:")
 key = int(input("Ключ:"))
-encrypt = encrypt.lower()
 encrypted = ""
 for letter in encrypt:
     position = alphabet.find(letter)
