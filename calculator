@@ -16,14 +16,18 @@ while True:
             print("Помилка!")
             break
         if s == '+':
-            print("%.2f" % (x+y))
+            c = x + y
+            print(c)
         elif s == '-':
-            print("%.2f" % (x-y))
+            c = x - y
+            print(c)
         elif s == '*':
-            print("%.2f" % (x*y))
+            c = x * y
+            print(c)
         elif s == '/':
             if y != 0:
-                print("%.2f" % (x/y))
+                c = x / y
+                print(c)
             else:
                 print("Ділення на нуль!")
     else:
